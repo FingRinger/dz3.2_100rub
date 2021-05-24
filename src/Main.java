@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
 //topupAmount - сумма пополнения счета
-        long topupAmount = 100;
+        long topupAmount = 1100;
         boolean i = topupAmount > 1000;
 
        long bonus;
