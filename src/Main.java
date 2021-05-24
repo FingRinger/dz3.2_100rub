@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
 //topupAmount - сумма пополнения счета
-        long topupAmount = 1100;
+        long topupAmount = 100;
         boolean i = topupAmount > 1000;
 
        long bonus;
@@ -13,7 +13,7 @@ public class Main {
         else {
              bonus = 0;
         }
- long currentBalance = 100;
+ long currentBalance = 3000;
  long total = currentBalance + topupAmount + bonus;
         System.out.println(total);
         System.out.println(bonus);
